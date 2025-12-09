@@ -31,5 +31,7 @@ class Cliente(Pessoa):
 class Kassio(Pessoa):
     end=models.TextField(max_length=1000)
     
+
+    
     def __str__(self):
         return self.nome
