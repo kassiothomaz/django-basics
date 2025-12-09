@@ -15,6 +15,7 @@ class Funcionario(Pessoa):
     meta = models.BigIntegerField()
     class Meta:
         verbose_name = 'funcionario'
+       
         verbose_name_plural = 'funcionarios'
     def __str__(self):
         return self.cpf
@@ -32,6 +33,6 @@ class Kassio(Pessoa):
     end=models.TextField(max_length=1000)
     
 
-    
+
     def __str__(self):
         return self.nome
