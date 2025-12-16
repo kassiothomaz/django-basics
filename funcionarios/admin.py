@@ -1,9 +1,5 @@
 from django.contrib import admin
-<<<<<<< HEAD
-from .models import Funcionario,Kassiooo
-=======
-from .models import Funcionario, Eduardo, Dominique
->>>>>>> 2f73b115f3de6e5fa20f1e029d30e2217bb414e9
+from .models import Funcionario, Eduardo, Dominique,Kassiooo
 # Register your models here.
 
 
